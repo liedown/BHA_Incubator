@@ -7,7 +7,7 @@ Needless to say, you will need an Arduino UNO or equivalent microcontroller.
 These are the parts you will need to assemble the incubator:
 
 |No|Amount|Description|Supplier NL|Cost|
-|-:|----:|:---------|:-------|---:|
+| ------------: | ------------: | :------------ | :------------ | ------------: |
 |1|4|3mm MDF 95 x 45 cm|Local wood store, like [Houthandel Schmidt](https://www.google.com/maps/dir/Waag+Society,+Nieuwmarkt,+Amsterdam,+Netherlands/Houthandel+Schmidt,+Oudezijds+Achterburgwal+53,+1012+DB+Amsterdam,+Netherlands/@52.3732195,4.8971869,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x47c609b93deae857:0xa3c3b57e66c44946!2m2!1d4.900298!2d52.372807!1m5!1m1!1s0x47c609b901ad7703:0x6d511a1e0f5be9c2!2m2!1d4.89915!2d52.373417)|5.00|
 |2|1|Expanded polystyrene (EPS)|[Praxis](https://www.praxis.nl/bouwmaterialen/isolatie/isolatie/isolatieplaat-eps-60-100-x-50-x-5cm-5-stuks/5322572)|7.99|
 |3|1|3mm Acrylic sheet 27 x 41 cm|[Plexiglas.nl](http://www.plexiglas.nl/)|3.50|
@@ -24,8 +24,6 @@ These are the parts you will need to assemble the incubator:
 |14|1|7.5 W power supply|[iPrototype](https://iprototype.nl/products/accessoires/power/adapter), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=11642)|13.95|
 |15|1|Jack Adapter|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=14342)|0.85|
 |16|1|Heating foil|[Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|20.68|
-|--|--|---|---|---|
-|||*Total costs*|||
 
 > (*1) In case you choose for the DS18B20 temperature sensor, you will also need a [4.7K ohm resistor](https://www.iprototype.nl/products/components/resistors/4K7) 
 
@@ -37,7 +35,6 @@ These are the parts you will need to assemble the incubator:
 ### Nice to have
 
 |No|Description|Supplier NL|Cost|
-|-:|:---------|:-------|---:|
+| ------------: | ------------: | :------------ | :------------ | ------------: |
 |1|Lever switch|[iPrototype](https://iprototype.nl/products/components/buttons-switches/micro-switch-right-lever)|1.99|
 |2|Speaker|[iPrototype](https://iprototype.nl/products/components/overige/piezo)|1.55|
-||*Total costs*||*3.54*|
