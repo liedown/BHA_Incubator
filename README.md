@@ -9,4 +9,10 @@ BioHack Academy Incubator
 
 Archive contains:
 
-* BHA 2015-1 "BioFactory" Design
+* 2015 BHA1 Design
+* 2015 BHA2 Design
+
+To Do:
+
+* BHA Board scheme
+* Pictures
