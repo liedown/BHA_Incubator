@@ -51,10 +51,10 @@ LiquidCrystal_I2C lcd(0x3F,16,2);
 /* *******************************************************
 // Define pins
 */
-#define fanPin 3     // The mosfet that drives the 80mm fan is connected to pin 3
-#define mosfetPin 2   // Pin for the relay that controls the heat pad
-#define buttonPin1 7 // Pin for the push button left of the screen
-#define buttonPin2 8 // Pin for the push button right of the screen
+#define fanPin 5     // The mosfet that drives the 80mm fan is connected to pin 3
+#define mosfetPin 6   // Pin for the relay that controls the heat pad
+#define buttonPin1 11 // Pin for the push button left of the screen
+#define buttonPin2 12 // Pin for the push button right of the screen
 #define ledPin 13    // Arduino nboard LED pin used as indicator
 /* *******************************************************
 */
