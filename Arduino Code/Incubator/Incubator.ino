@@ -18,6 +18,12 @@
 	<http://www.gnu.org/licenses/>.
 */
 
+/* PLEASE NOTE
+ *  By default this code assume you will use an analog temperature sensor 
+ *  (10K Thermistor). In case you are using an 1-wire digital sensor you 
+ *  will have to uncomment a section in the Loop() function
+ */
+
 
 /* Attribution
 
@@ -136,10 +142,17 @@ double Thermister(int RawADC) {  //Function to perform the fancy math of the Ste
 void loop() {
 
   if((millis() - begin_temp_time) > temp_time) {
-    float temperature = getTemp();
-    val=analogRead(0);      //Read the analog port 0 and store the value in val
+
+    /* UNCOMMENT THESE LINES IN CASE YOU ARE USING A DIGITAL TEMP SENSOR */
+    // float temperature = getTemp(); // Read temperature via digital sensor
+    // temp=temperature;
+    /* UNCOMMENT UNTIL HERE */
+
+    /* THESE LINES ARE USED WHEN AN ANALOG TEMP SENSOR IS IN USE */
+    val=analogRead(analogTempPin);      //Read the analog port 0 and store the value in val
     temp=Thermister(val);   //Runs the fancy math on the raw analog value
-    temp=temperature;
+    /* END ANALOG SENSOR */
+    
     Serial.println(temp);   //Print the value to the serial port
     begin_temp_time = millis();
   }
