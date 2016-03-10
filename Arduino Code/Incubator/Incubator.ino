@@ -44,7 +44,7 @@ NOTE for first time users:
 /  LCD
 */
 // Set the LCD address to 0x27 for a 16 chars and 2 line display
-LiquidCrystal_I2C lcd(0x3F,16,2);
+LiquidCrystal_I2C lcd(0x27,16,2);
 /* *******************************************************
 */
 
@@ -80,9 +80,12 @@ long begin_temp_time = 0;
 /* *******************************************************
 */
 
-// Temp sensor
+// Temp sensor digital
 int DS18S20_Pin = 10; //DS18S20 Signal pin on digital 10
 OneWire ds(DS18S20_Pin); // on digital pin 10
+
+// Temp sensor analog
+const int analogTempPin = A0;
   
 void setup() {            //This function gets called when the Arduino starts
   Serial.begin(115200);   //This code sets up the Serial port at 115200 baud rate
