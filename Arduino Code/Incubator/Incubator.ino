@@ -143,10 +143,10 @@ void loop() {
 
   if((millis() - begin_temp_time) > temp_time) {
 
-    /* UNCOMMENT THESE LINES IN CASE YOU ARE USING A DIGITAL TEMP SENSOR */
+    // UNCOMMENT THESE LINES IN CASE YOU ARE USING A DIGITAL TEMP SENSOR 
     // float temperature = getTemp(); // Read temperature via digital sensor
     // temp=temperature;
-    /* UNCOMMENT UNTIL HERE */
+    // UNCOMMENT UNTIL HERE
 
     /* THESE LINES ARE USED WHEN AN ANALOG TEMP SENSOR IS IN USE */
     val=analogRead(analogTempPin);      //Read the analog port 0 and store the value in val
