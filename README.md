@@ -5,7 +5,7 @@ This repo contains the designs and source files of a **DIY Incubator**. This dev
 ##Navigation the repo
 
  	BHA_Incubator/						main repo
- 	|-- Arduino Code/Incubator/		Arduino Code
+ 	|-- Arduino Code/Incubator/			Arduino Code
  	BoM.md								Bill of Materials
  	Incubator-Cut-Sheet.svg				Laser cut vector file
  	Incubator-Fritzing.fzz				Wiring Scheme
