@@ -24,11 +24,7 @@ The BioHack Academy 3 release contains the following:
 * BHA Board scheme
 * Pictures
 
-<<<<<<< Updated upstream
-edit by pieter
-=======
-<<<<<<< HEAD
-Please maket more suggestions by posting in the Issues section of this GitHub Repo.
+Please make more suggestions by posting in the Issues section of this GitHub Repo.
 
 ## License
 
@@ -37,7 +33,3 @@ All code is licensed under GNU General Public License.
 All designs are licensed under Creative Commons Contribution Share-Alike license
 
 Copyright Waag Society
-=======
-edit by pieter
->>>>>>> origin/master
->>>>>>> Stashed changes
