@@ -1,4 +1,4 @@
-## Bill of Materials
+## 材料清单
 
 Make sure you have an Arduino or equivalent microprocessor, big enough sheets of 3mm material to cut the design from and plenty of wires and M3 10 screws and nuts to assemble all the parts.
 
@@ -6,42 +6,21 @@ Make sure you have an Arduino or equivalent microprocessor, big enough sheets of
 
 These are the parts you will need to assemble the incubator:
 
-|No|Amount|Description|Supplier NL|Cost|
+|序号|数量|部件|供应商|价格|
 | ------------: | ------------: | :------------ | :------------ | ------------: |
-|1|1|12V 80 mm Axial Fan|[Farnell](http://nl.farnell.com/bisonic/sp802512l-03/fan-80x25mm-12vdc/dp/1832326), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13244)|3.25|
-|2|1|Power switch|[Farnell](http://nl.farnell.com/multicomp/jr1819-rohs-psg01769/socket-low-voltage-2-1mm-chassis/dp/1216726), [iPrototype](https://iprototype.nl/products/components/buttons-switches/rocker-switch-large)|0.85|
-|3|1|Waterproof 10K NTC thermistor|[Hackerstore](https://www.hackerstore.nl/Artikel/298), [Adafruit](https://www.adafruit.com/product/372)|2.95|
-|4|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), [Hackerstore](https://www.hackerstore.nl/Artikel/82)|8.95|
-|5|2|MOSFET|[Farnell](http://nl.farnell.com/stmicroelectronics/stp36nf06l/mosfet-n-logic-to-220/dp/9935614?CMP=i-bf9f-00001000), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=1279)|0.60|
-|6|4|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.12|
-|7|1|Diode|[Farnell](http://nl.farnell.com/on-semiconductor/1n4004rlg/rectifier-1a-400v-axial/dp/2533160), [iPrototype](https://iprototype.nl/products/components/overige/diode), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=10717)|0.19|
-|8|2|Button|[Farnell](http://nl.farnell.com/omron-electronic-components/b3f4155/switch-projected-12x12x7-3-260gf/dp/1960977?ost=OMRON+ELECTRONIC+COMPONENTS++B3F4155&selectedCategoryId=&categoryNameResp=Alle%2Bcategorie%25C3%25ABn&searchView=table&iscrfnonsku=false), [iPrototype](https://iprototype.nl/products/components/buttons-switches/momentary-push-button), [Sparkfun](https://www.sparkfun.com/products/9190)|0.47|
-|9|1|7.5 W power supply|[iPrototype](https://iprototype.nl/products/accessoires/power/adapter), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=11642)|12.50|
-|10|1|Jack Adapter|[Farnell](http://nl.farnell.com/multicomp/jr1819-rohs-psg01769/socket-low-voltage-2-1mm-chassis/dp/1216726), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=14342)|0.85|
-|11|1|Heating foil|[Floris.cc](https://www.floris.cc/shop/en/general-components/514-heating-pad-5x10cm.html), [Sparkfun](https://www.sparkfun.com/products/11288), [Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|4.50|
-|12|1|Breadboard|[Farnell](http://nl.farnell.com/pro-signal/psg-bb-400/breadboard-400-pin-white/dp/2503765). [iPrototype](https://iprototype.nl/products/accessoires/breadboards-prints/halfbreadboard)|2.56|
+|1|1|12V 80 mm风扇|[淘宝](https://s.taobao.com/search?q=%E9%A3%8E%E6%89%8712V+80+mm&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥8|
+|2|1|电源开关|[淘宝](https://s.taobao.com/search?q=%E7%94%B5%E6%BA%90%E5%BC%80%E5%85%B3&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥2|
+|3|1|防水10K NTC热敏电阻|[淘宝](https://s.taobao.com/search?q=%E9%98%B2%E6%B0%B410K+NTC%E7%83%AD%E6%95%8F%E7%94%B5%E9%98%BB&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥2.5|
+|4|1|I2C LCD液晶屏|[淘宝](https://s.taobao.com/search?ie=utf8&initiative_id=staobaoz_20170701&stats_click=search_radio_all%3A1&js=1&imgfile=&q=i2c+lcd%E6%B6%B2%E6%99%B6%E5%B1%8F&suggest=0_3&_input_charset=utf-8&wq=I2C+LCD&suggest_query=I2C+LCD&source=suggest)|￥10|
+|5|2|金氧半场效晶体管|[淘宝](https://s.taobao.com/search?q=MOSFET&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥2|
+|6|4|10K 电阻|[淘宝](https://s.taobao.com/search?ie=utf8&initiative_id=staobaoz_20170701&stats_click=search_radio_all%3A1&js=1&imgfile=&q=10k%E7%94%B5%E9%98%BB1w&suggest=0_2&_input_charset=utf-8&wq=10K%E7%94%B5%E9%98%BB&suggest_query=10K%E7%94%B5%E9%98%BB&source=suggest)|￥1.5|
+|7|1|二极管|[淘宝](https://s.taobao.com/search?q=%E4%BA%8C%E6%9E%81%E7%AE%A1&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥0.03|
+|8|2|按钮|[淘宝](https://s.taobao.com/search?q=%E6%8C%89%E9%92%AE&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥2|
+|9|1|1A 电源适配器|[淘宝](https://s.taobao.com/search?q=7.5+W+%E7%94%B5%E6%BA%90%E9%80%82%E9%85%8D%E5%99%A8&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥22.9|
+|10|1|加热板|[淘宝](https://s.taobao.com/search?ie=utf8&initiative_id=staobaoz_20170701&stats_click=search_radio_all%3A1&js=1&imgfile=&q=%E5%8A%A0%E7%83%AD%E6%9D%BF+%E5%8F%91%E7%83%AD%E7%89%87&suggest=history_2&_input_charset=utf-8&wq=%E5%8A%A0%E7%83%AD%E6%9D%BF&suggest_query=%E5%8A%A0%E7%83%AD%E6%9D%BF&source=suggest)|￥25|
+|11|1|电路板|[淘宝](https://s.taobao.com/search?q=%E7%94%B5%E8%B7%AF%E6%9D%BF&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170701&ie=utf8)|￥2.6|
 
-*Estimate total*: EUR 43.53
-
-### Components that are needed on top of the Biohack Board
-
-In case you are using the [**BioHack Board**](https://github.com/BioHackAcademy/BioHackBoard) Arduino shield, you need the following parts:
-
-
-|No|Amount|Description|Supplier NL|Cost|
-| ------------: | ------------: | :------------ | :------------ | ------------: |
-|1|1|12V 80 mm Axial Fan|[Farnell](http://nl.farnell.com/bisonic/sp802512l-03/fan-80x25mm-12vdc/dp/1832326), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13244)|8.99|
-|2|1|Power switch|[Farnell](http://nl.farnell.com/multicomp/jr1819-rohs-psg01769/socket-low-voltage-2-1mm-chassis/dp/1216726), [iPrototype](https://iprototype.nl/products/components/buttons-switches/rocker-switch-large)|0.85|
-|3|1|Waterproof 10K NTC thermistor|[Hackerstore](https://www.hackerstore.nl/Artikel/298), [Adafruit](https://www.adafruit.com/product/372)|2.95|
-|4|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), [Hackerstore](https://www.hackerstore.nl/Artikel/82)|8.95|
-|5|1|Diode|[Farnell](http://nl.farnell.com/on-semiconductor/1n4004rlg/rectifier-1a-400v-axial/dp/2533160), [iPrototype](https://iprototype.nl/products/components/overige/diode), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=10717)|0.19|
-|6|2|Button|[Farnell](http://nl.farnell.com/omron-electronic-components/b3f4155/switch-projected-12x12x7-3-260gf/dp/1960977?ost=OMRON+ELECTRONIC+COMPONENTS++B3F4155&selectedCategoryId=&categoryNameResp=Alle%2Bcategorie%25C3%25ABn&searchView=table&iscrfnonsku=false), [iPrototype](https://iprototype.nl/products/components/buttons-switches/momentary-push-button), [Sparkfun](https://www.sparkfun.com/products/9190)|0.47|
-|7|1|7.5 W power supply|[iPrototype](https://iprototype.nl/products/accessoires/power/adapter), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=11642)|12.50|
-|8|1|Jack Adapter|[Farnell](http://nl.farnell.com/multicomp/jr1819-rohs-psg01769/socket-low-voltage-2-1mm-chassis/dp/1216726), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=14342)|0.85|
-|9|1|Heating foil|[Floris.cc](https://www.floris.cc/shop/en/general-components/514-heating-pad-5x10cm.html), [Sparkfun](https://www.sparkfun.com/products/11288), [Conrad](https://www.conrad.nl/nl/thermo-verwarmingsfolie-zelfklevend-12-vdc-12-vac-22-w-veiligheidstype-ipx4-90-mm-1216623.html)|4.50|
-|10|1|Breadboard|[Farnell](http://nl.farnell.com/pro-signal/psg-bb-400/breadboard-400-pin-white/dp/2503765). [iPrototype](https://iprototype.nl/products/accessoires/breadboards-prints/halfbreadboard)|2.56|
-
-*Estimate total*: EUR 42.81
+*Estimate total*:78.53 RMB
 
 **Alternatives**
 
